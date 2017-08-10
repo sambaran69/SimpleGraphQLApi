@@ -1,0 +1,12 @@
+{
+  "restartable": "rs",
+  "verbose": true,
+  "ignore": [
+    "node_modules/",
+    "data/",
+    "src/**/*.ts"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
