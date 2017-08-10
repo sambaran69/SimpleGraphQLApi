@@ -9,6 +9,10 @@
     normalize-path "^2.0.1"
     through2 "^2.0.3"
 
+"@types/bluebird@*":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.8.tgz#242a83379f06c90f96acf6d1aeab3af6faebdb98"
+
 "@types/body-parser@^1.16.4":
   version "1.16.4"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/@types/body-parser/-/body-parser-1.16.4.tgz#96f3660e6f88a677fee7250f5a5e6d6bda3c76bb"
@@ -35,6 +39,10 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
+"@types/geojson@^1.0.0":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-1.0.2.tgz#b02d10ab028e2928ac592a051aaa4981a1941d03"
+
 "@types/graphql@^0.9.2":
   version "0.9.4"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/@types/graphql/-/graphql-0.9.4.tgz#cdeb6bcbef9b6c584374b81aa7f48ecf3da404fa"
@@ -42,6 +50,10 @@
 "@types/js-yaml@^3.5.31":
   version "3.9.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/@types/js-yaml/-/js-yaml-3.9.0.tgz#cf82d31326251e8e94848d98a0665875928cdae6"
+
+"@types/lodash@*":
+  version "4.14.72"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.72.tgz#f090cf6eb1fee1647a0efa1ebe18b0b78ed551c6"
 
 "@types/mime@*":
   version "1.3.1"
@@ -51,12 +63,36 @@
   version "8.0.20"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/@types/node/-/node-8.0.20.tgz#65c7375255c24b184c215a5d0b63247c32f01c91"
 
+"@types/node@6.0.41":
+  version "6.0.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.41.tgz#578cf53aaec65887bcaf16792f8722932e8ff8ea"
+
+"@types/node@^6.0.48":
+  version "6.0.85"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.85.tgz#ec02bfe54a61044f2be44f13b389c6a0e8ee05ae"
+
+"@types/reflect-metadata@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@types/reflect-metadata/-/reflect-metadata-0.0.4.tgz#b6477ca9a97e5265f2ac67f9ea704eae5e0eaf4d"
+
+"@types/sequelize@4.0.60":
+  version "4.0.60"
+  resolved "https://registry.yarnpkg.com/@types/sequelize/-/sequelize-4.0.60.tgz#8774de81fb28416eb24e964efc8af0d755e0c732"
+  dependencies:
+    "@types/bluebird" "*"
+    "@types/lodash" "*"
+    "@types/validator" "*"
+
 "@types/serve-static@*":
   version "1.7.31"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/@types/serve-static/-/serve-static-1.7.31.tgz#15456de8d98d6b4cff31be6c6af7492ae63f521a"
   dependencies:
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
+
+"@types/validator@*":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-6.2.1.tgz#15ee3c2934b0bd03897116c598f93eef9f3a85e2"
 
 abbrev@1:
   version "1.1.0"
@@ -210,6 +246,10 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
+bluebird@^3.4.6:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
+
 body-parser@^1.17.2:
   version "1.17.2"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/body-parser/-/body-parser-1.17.2.tgz#f8892abc8f9e627d42aedafbca66bf5ab99104ee"
@@ -295,6 +335,13 @@ clone@^1.0.0, clone@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
+cls-bluebird@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/cls-bluebird/-/cls-bluebird-2.0.1.tgz#c259a480ae02c0e506134307bb13db30446ee2e7"
+  dependencies:
+    is-bluebird "^1.0.2"
+    shimmer "^1.1.0"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -312,6 +359,13 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
+
+config@^1.26.1:
+  version "1.26.1"
+  resolved "https://registry.yarnpkg.com/config/-/config-1.26.1.tgz#f647ce32c345e80ba73a8eaa7a9a4b4e5b290ca1"
+  dependencies:
+    json5 "0.4.0"
+    os-homedir "1.0.2"
 
 configstore@^1.0.0:
   version "1.4.0"
@@ -354,6 +408,14 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
+cross-spawn@^5.0.1:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
+  dependencies:
+    lru-cache "^4.0.1"
+    shebang-command "^1.2.0"
+    which "^1.2.9"
+
 cryptiles@2.x.x:
   version "2.0.5"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/cryptiles/-/cryptiles-2.0.5.tgz#3bdfecdc608147c1c67202fa291e7dca59eaa3b8"
@@ -393,7 +455,7 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@2.X, debug@^2.2.0:
+debug@2.6.8, debug@2.X, debug@^2.2.0, debug@^2.3.0:
   version "2.6.8"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -421,7 +483,7 @@ depd@1.1.0:
   version "1.1.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/depd/-/depd-1.1.0.tgz#e1bd82c6aab6ced965b97b88b17ed3e528ca18c3"
 
-depd@1.1.1, depd@~1.1.0, depd@~1.1.1:
+depd@1.1.1, depd@^1.1.0, depd@~1.1.0, depd@~1.1.1:
   version "1.1.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/depd/-/depd-1.1.1.tgz#5783b4e1c459f06fa5ca27f991f3d06e7a310359"
 
@@ -442,6 +504,10 @@ detect-file@^0.1.0:
 detect-newline@2.X:
   version "2.1.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
+
+dottie@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dottie/-/dottie-2.0.0.tgz#da191981c8b8d713ca0115d5898cf397c2f0ddd0"
 
 duplexer2@0.0.2:
   version "0.0.2"
@@ -488,9 +554,19 @@ end-of-stream@~0.1.5:
   dependencies:
     once "~1.3.0"
 
+env-cmd@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/env-cmd/-/env-cmd-5.1.0.tgz#0236db393c3f033005204fcd0a92ee40723a9c9e"
+  dependencies:
+    cross-spawn "^5.0.1"
+
 es6-promise@^3.0.2:
   version "3.3.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/es6-promise/-/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
+
+es6-shim@0.35.3:
+  version "0.35.3"
+  resolved "https://registry.yarnpkg.com/es6-shim/-/es6-shim-0.35.3.tgz#9bfb7363feffff87a6cdb6cd93e405ec3c4b6f26"
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -766,6 +842,10 @@ gaze@^0.5.1:
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/gaze/-/gaze-0.5.2.tgz#40b709537d24d1d45767db5a908689dfe69ac44f"
   dependencies:
     globule "~0.1.0"
+
+generic-pool@^3.1.6:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.1.7.tgz#dac22b2c7a7a04e41732f7d8d2d25a303c88f662"
 
 getpass@^0.1.1:
   version "0.1.7"
@@ -1106,6 +1186,10 @@ infinity-agent@^2.0.0:
   version "2.0.3"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/infinity-agent/-/infinity-agent-2.0.3.tgz#45e0e2ff7a9eb030b27d62b74b3744b7a7ac4216"
 
+inflection@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/inflection/-/inflection-1.10.0.tgz#5bffcb1197ad3e81050f8e17e21668087ee9eb2f"
+
 inflight@^1.0.4:
   version "1.0.6"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/inflight/-/inflight-1.0.6.tgz#49bd6331d7d02d0c09bc910a1075ba8165b56df9"
@@ -1145,6 +1229,10 @@ is-binary-path@^1.0.0:
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/is-binary-path/-/is-binary-path-1.0.1.tgz#75f16642b480f187a711c814161fd3a4a7655898"
   dependencies:
     binary-extensions "^1.0.0"
+
+is-bluebird@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-bluebird/-/is-bluebird-1.0.2.tgz#096439060f4aa411abee19143a84d6a55346d6e2"
 
 is-buffer@^1.1.5:
   version "1.1.5"
@@ -1316,6 +1404,10 @@ json-stable-stringify@^1.0.0, json-stable-stringify@^1.0.1:
 json-stringify-safe@~5.0.1:
   version "5.0.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
+
+json5@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-0.4.0.tgz#054352e4c4c80c86c0923877d449de176a732c8d"
 
 jsonify@~0.0.0:
   version "0.0.0"
@@ -1505,6 +1597,10 @@ lodash.templatesettings@^3.0.0:
     lodash._reinterpolate "^3.0.0"
     lodash.escape "^3.0.0"
 
+lodash@^4.17.1:
+  version "4.17.4"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
 lodash@~1.0.1:
   version "1.0.2"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/lodash/-/lodash-1.0.2.tgz#8f57560c83b59fc270bd3d561b690043430e2551"
@@ -1516,6 +1612,13 @@ lowercase-keys@^1.0.0:
 lru-cache@2:
   version "2.7.3"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
+
+lru-cache@^4.0.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.1.tgz#622e32e82488b49279114a4f9ecf45e7cd6bba55"
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
 
 map-cache@^0.2.0:
   version "0.2.2"
@@ -1611,6 +1714,16 @@ minimist@^1.1.0, minimist@^1.2.0:
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment-timezone@^0.5.4:
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.13.tgz#99ce5c7d827262eb0f1f702044177f60745d7b90"
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.13.0:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
 ms@2.0.0:
   version "2.0.0"
@@ -1776,7 +1889,7 @@ ordered-read-streams@^0.3.0:
     is-stream "^1.0.1"
     readable-stream "^2.0.1"
 
-os-homedir@^1.0.0, os-homedir@^1.0.1:
+os-homedir@1.0.2, os-homedir@^1.0.0, os-homedir@^1.0.1:
   version "1.0.2"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
 
@@ -1897,6 +2010,10 @@ ps-tree@^1.0.1:
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/ps-tree/-/ps-tree-1.1.0.tgz#b421b24140d6203f1ed3c76996b4427b08e8c014"
   dependencies:
     event-stream "~3.3.0"
+
+pseudomap@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 punycode@^1.4.1:
   version "1.4.1"
@@ -2078,6 +2195,13 @@ resolve@^1.1.6, resolve@^1.1.7:
   dependencies:
     path-parse "^1.0.5"
 
+retry-as-promised@^2.0.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/retry-as-promised/-/retry-as-promised-2.3.0.tgz#27bf5ccd999932b31665696825cf3630c27c562d"
+  dependencies:
+    bluebird "^3.4.6"
+    debug "^2.2.0"
+
 rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
@@ -2098,7 +2222,7 @@ semver@^4.1.0:
   version "4.3.6"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/semver/-/semver-4.3.6.tgz#300bc6e0e86374f7ba61068b5b1ecd57fc6532da"
 
-semver@^5.0.3, semver@^5.3.0:
+semver@^5.0.1, semver@^5.0.3, semver@^5.3.0:
   version "5.4.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
@@ -2119,6 +2243,38 @@ send@0.15.4:
     on-finished "~2.3.0"
     range-parser "~1.2.0"
     statuses "~1.3.1"
+
+sequelize-typescript@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/sequelize-typescript/-/sequelize-typescript-0.4.0.tgz#bff1dccec1e1261d3c3039fe7b81743f239ef86e"
+  dependencies:
+    "@types/node" "6.0.41"
+    "@types/reflect-metadata" "0.0.4"
+    "@types/sequelize" "4.0.60"
+    es6-shim "0.35.3"
+
+sequelize@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.4.2.tgz#95292e0a752e2586ec92a0e72362b76e4fcb8eae"
+  dependencies:
+    bluebird "^3.4.6"
+    cls-bluebird "^2.0.1"
+    debug "^2.3.0"
+    depd "^1.1.0"
+    dottie "^2.0.0"
+    env-cmd "^5.0.0"
+    generic-pool "^3.1.6"
+    inflection "1.10.0"
+    lodash "^4.17.1"
+    moment "^2.13.0"
+    moment-timezone "^0.5.4"
+    retry-as-promised "^2.0.0"
+    semver "^5.0.1"
+    terraformer-wkt-parser "^1.1.2"
+    toposort-class "^1.0.1"
+    uuid "^3.0.0"
+    validator "^6.3.0"
+    wkx "^0.4.1"
 
 sequencify@~0.0.7:
   version "0.0.7"
@@ -2144,6 +2300,20 @@ set-immediate-shim@^1.0.1:
 setprototypeof@1.0.3:
   version "1.0.3"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/setprototypeof/-/setprototypeof-1.0.3.tgz#66567e37043eeb4f04d91bd658c0cbefb55b8e04"
+
+shebang-command@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-1.2.0.tgz#44aac65b695b03398968c39f363fee5deafdf1ea"
+  dependencies:
+    shebang-regex "^1.0.0"
+
+shebang-regex@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
+
+shimmer@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shimmer/-/shimmer-1.1.0.tgz#97d7377137ffbbab425522e429fe0aa89a488b35"
 
 sigmund@~1.0.0:
   version "1.0.1"
@@ -2315,6 +2485,18 @@ tar@^2.2.1:
     fstream "^1.0.2"
     inherits "2"
 
+terraformer-wkt-parser@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/terraformer-wkt-parser/-/terraformer-wkt-parser-1.1.2.tgz#336a0c8fc82094a5aff83288f69aedecd369bf0c"
+  dependencies:
+    terraformer "~1.0.5"
+
+terraformer@~1.0.5:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/terraformer/-/terraformer-1.0.8.tgz#51e0ad89746fcf2161dc6f65aa70e42377c8b593"
+  dependencies:
+    "@types/geojson" "^1.0.0"
+
 through2-filter@^2.0.0:
   version "2.0.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/through2-filter/-/through2-filter-2.0.0.tgz#60bc55a0dacb76085db1f9dae99ab43f83d622ec"
@@ -2359,6 +2541,10 @@ to-absolute-glob@^0.1.1:
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/to-absolute-glob/-/to-absolute-glob-0.1.1.tgz#1cdfa472a9ef50c239ee66999b662ca0eb39937f"
   dependencies:
     extend-shallow "^2.0.1"
+
+toposort-class@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/toposort-class/-/toposort-class-1.0.1.tgz#7ffd1f78c8be28c3ba45cd4e1a3f5ee193bd9988"
 
 touch@1.0.0:
   version "1.0.0"
@@ -2466,6 +2652,10 @@ vali-date@^1.0.0:
   version "1.0.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/vali-date/-/vali-date-1.0.0.tgz#1b904a59609fb328ef078138420934f6b86709a6"
 
+validator@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-6.3.0.tgz#47ce23ed8d4eaddfa9d4b8ef0071b6cf1078d7c8"
+
 vary@~1.1.1:
   version "1.1.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/vary/-/vary-1.1.1.tgz#67535ebb694c1d52257457984665323f587e8d37"
@@ -2543,7 +2733,7 @@ watch@^1.0.2:
     exec-sh "^0.2.0"
     minimist "^1.2.0"
 
-which@^1.2.12:
+which@^1.2.12, which@^1.2.9:
   version "1.3.0"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
   dependencies:
@@ -2554,6 +2744,12 @@ wide-align@^1.1.0:
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/wide-align/-/wide-align-1.1.2.tgz#571e0f1b0604636ebc0dfc21b0339bbe31341710"
   dependencies:
     string-width "^1.0.2"
+
+wkx@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/wkx/-/wkx-0.4.1.tgz#2fc171b5e9cb55c6256fef4bde1f21be413befee"
+  dependencies:
+    "@types/node" "^6.0.48"
 
 wrappy@1:
   version "1.0.2"
@@ -2576,3 +2772,7 @@ xdg-basedir@^2.0.0:
 "xtend@>=4.0.0 <4.1.0-0", xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
   resolved "https://artifactory.tattsgroup.com:443/artifactory/api/npm/gaming-maxsys/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
+
+yallist@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"

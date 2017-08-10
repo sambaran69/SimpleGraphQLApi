@@ -59,3 +59,4 @@ typings/
 
 # Custom for this project
 dist/
+.idea
